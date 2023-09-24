@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+TODO: Change the background color for each device
+[lightsalmon] Mobile Devices: 319px — 480px
+[powderblue] iPads and Tablets: 481px — 1200px
+[limegreen] Laptops: 1201px — 1600px
+[seagreen] Desktops: 1601px and more
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Media Query</title>
+  <style>
+    body {
+      background-color: aquamarine;
+    }
+
+    @media (min-width:319px) and (max-width:480px)
+    {
+      body{
+         background-color : rgb(225, 212, 73);
+      }
+     
+    }
+
+    @media (min-width:1201px) and (max-width:1600px)
+    {
+      body{
+         background-color : rgb(26, 96, 201);
+      }
+     
+    }
+
+
+    @media (max-width:1600px)
+    {
+      body{
+         background-color : red;
+      }
+     
+    }
+
+
+    @media (min-width:481px) and (max-width:800px)
+    {
+      body{
+         background-color : rgb(208, 20, 189);
+      }
+     
+    }
+
+    @media (min-width:1200px) and (max-width:1600px)
+    {
+      body{
+         background-color : rgb(187, 18, 119);
+      }
+     
+    }
+
+    @media (min-width:800px) and (max-width:1200px)
+    {
+      body{
+         background-color : rgb(71, 9, 87);
+      }
+     
+    }
+
+
+
+
+    </style>
+</head>
+
+<body>
+</body>
+
+</html>
